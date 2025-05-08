@@ -4,20 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f999939-2566-408d-9258-7a2f7c106d1e" name="Changes" comment="" />
+    <list default="true" id="1f999939-2566-408d-9258-7a2f7c106d1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/restfulbooker/pojos/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/restfulbooker/pojos/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/restfulbooker/pojos/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/restfulbooker/pojos/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/restfulbooker/pojos/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/assets/AssertActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/crud/TestDeleteBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/crud/TestHealthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/crud/TestUpdateBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/integration/TestE2EFlow_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/integration/TestE2EFlow_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/restfulbooker/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restfulbooker/endpoints/APIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/restfulbooker/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restfulbooker/modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/restfulbooker/CreateBooking/CreateBookingPostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/crud/TestCreateBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/restfulbooker/CreateToken/CreateTokenPostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/crud/TestCreateToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/restfulbooker/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/sample/TestIntegrationSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restfulbooker/tests/sample/TestIntegrationSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_sample.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "PrashantSajjanar1105"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/PrashantSajjanar1105/APITesting-RestAssured-RestFullBooker.git",
+    "accountId": "8e8f2d10-7376-4e2b-8f58-732df05abc36"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2wDBgY1AguWq2F25BKnCuLB5mup" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,10 +69,126 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/seleniumproject/APITesting-RestAssured/testng.xml.executor": "Run",
+    "TestNG.C:/seleniumproject/APITesting-RestAssured/testng_CreateBooking.xml.executor": "Run",
+    "TestNG.C:/seleniumproject/APITesting-RestAssured/testng_CreateToken.xml.executor": "Run",
+    "TestNG.CreateBookingPostRequest.executor": "Run",
+    "TestNG.PostRequest.executor": "Run",
+    "TestNG.PostRequest.postRequest.executor": "Run",
+    "TestNG.TestCreateBooking.executor": "Run",
+    "TestNG.TestCreateToken.executor": "Run",
+    "TestNG.TestCreateToken.testCreateToken.executor": "Debug",
+    "TestNG.TestDeleteBooking.executor": "Run",
+    "TestNG.TestE2EFlow_01.executor": "Run",
+    "TestNG.TestE2EFlow_01.testCreateBooking.executor": "Run",
+    "TestNG.TestE2EFlow_01.testUpdateBookingByID.executor": "Run",
+    "TestNG.TestE2EFlow_01.testVerifyBookingByID.executor": "Run",
+    "TestNG.TestE2EFlow_02.executor": "Run",
+    "TestNG.TestHealthCheck.executor": "Run",
+    "TestNG.TestUpdateBooking.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.TestE2EFlow_02">
+    <configuration name="TestDeleteBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITesting-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.restfulbooker.tests.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.restfulbooker.tests.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.restfulbooker.tests.crud.TestDeleteBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestE2EFlow_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITesting-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.restfulbooker.tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.restfulbooker.tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.restfulbooker.tests.integration.TestE2EFlow_01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestE2EFlow_01.testUpdateBookingByID" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITesting-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.restfulbooker.tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.restfulbooker.tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.restfulbooker.tests.integration.TestE2EFlow_01" />
+      <option name="METHOD_NAME" value="testUpdateBookingByID" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestE2EFlow_02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITesting-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.restfulbooker.tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.restfulbooker.tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.restfulbooker.tests.integration.TestE2EFlow_02" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUpdateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITesting-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.restfulbooker.tests.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.restfulbooker.tests.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.restfulbooker.tests.crud.TestUpdateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestE2EFlow_02" />
+        <item itemvalue="TestNG.TestDeleteBooking" />
+        <item itemvalue="TestNG.TestUpdateBooking" />
+        <item itemvalue="TestNG.TestE2EFlow_01" />
+        <item itemvalue="TestNG.TestE2EFlow_01.testUpdateBookingByID" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,5 +199,16 @@
       <updated>1745566378242</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
